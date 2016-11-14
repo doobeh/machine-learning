@@ -39,6 +39,11 @@
 
     a:hover {
       background-color: $gray-1;
+      border-right: .35rem solid $gray-4;
+      color: $gray-7;
+    }
+    a.active {
+      background-color: $gray-1;
       border-right: .35rem solid $green-4;
       color: $gray-7;
     }
